@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"Tests\\TagParserTest::test_it_a_single_tag":0.004,"Tests\\TagParserTest::test_it_parses_a_comma_separated_list_of_tag":0,"Tests\\TagParserTest::test_it_parses_a_pipe_separated_list_of_tags":0,"Tests\\TagParserTest::test_spaces_are_optional":0}}

@@ -1,0 +1,12 @@
+On PHP_Testing repositories, need to enter the dev.nix shell
+First make a default.nix or dev.nix whatever, then copy and paste this on the nix packages
+
+{ pkgs ? import <nixpkgs> {} }:
+pkgs.mkShell {
+  buildInputs = [
+    pkgs.php81
+    pkgs.php81Packages.composer
+  ];
+}
+
+Then enter the nix-shell
